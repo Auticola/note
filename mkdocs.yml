@@ -1,0 +1,6 @@
+site_name: Auticola 's Notes
+site_url: https://Auticola.github.io/note/
+site_author: Auticola
+
+theme:
+  name: material
