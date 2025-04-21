@@ -1,7 +1,8 @@
-site_name: Auticola 's Notes
+site_name: Auticola 的 叶栈漫谈
 site_url: https://Auticola.github.io/note/
 site_description: 愿此行，终抵群星
 site_author: Auticola
+
 
 # UI
 theme:
@@ -10,15 +11,15 @@ theme:
   # 顶部栏目
   palette: 
     - media: "(prefers-color-scheme: light)"
-      scheme: default       # 日间模式
-      primary: blue
-      accent: cyan          # 链接等可交互元件的高亮色
+      scheme: mist       # 日间模式
+      primary: white
+      accent: indigo          # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-sunny  # 图标
         name: 切换至夜间模式    # 鼠标悬浮提示
     - media: "(prefers-color-scheme: dark)"
       scheme: slate         # 夜间模式
-      primary: blue grey
+      primary: black
       accent: indigo        # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night  # 图标
@@ -48,6 +49,8 @@ theme:
     - content.action.view
     - content.code.annotate
 
+  icon:
+    logo: material/bookmark-multiple
   
 nav:
   - 首页: index.md
@@ -55,13 +58,16 @@ nav:
     - 图论:
       - 树上问题:
         - 最近公共祖先 (LCA): 算法/图论/树上问题/LCA.md
+        
 
 extra_css:
-  - stylesheets/extra.css # 自定义的CSS
-  - https://static.zeoseven.com/zsft/292/main/result.css
-  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
-  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
-  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - stylesheets/extra.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
+  # - https://cdn.tonycrane.cc/utils/katex.min.css
+  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
 
 
 
