@@ -1,5 +1,5 @@
 # Info
-site_name: Auticola 的 叶栈漫谈
+site_name: Auticola 的 茶烟随想
 site_url: https://Auticola.github.io/note/
 site_description: 愿此行，终抵群星
 site_author: Auticola
@@ -51,7 +51,7 @@ theme:
     - content.code.annotate
 
   icon:
-    logo: material/bookmark-multiple
+    logo: material/tea
   
 nav:
   - 首页: index.md
