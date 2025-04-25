@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://Auticola.github.io/note/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <lastmod>2025-04-25</lastmod>
     </url>
     <url>
-         <loc>https://Auticola.github.io/note/%E7%AE%97%E6%B3%95/%E5%9B%BE%E8%AE%BA/%E6%A0%91%E4%B8%8A%E9%97%AE%E9%A2%98/LCA/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://Auticola.github.io/note/Algorithm/graph/tree/LCA/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://Auticola.github.io/note/CS/CSAPP/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://Auticola.github.io/note/CS/CSAPP/note/Lec1/Lec1/</loc>
+         <lastmod>2025-04-25</lastmod>
     </url>
 </urlset>
